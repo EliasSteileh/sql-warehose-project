@@ -2,7 +2,7 @@
 import os
 import duckdb
 
-db_path = "DataWarehouse.duckdb"
+db_path = "datawarehouse.duckdb"
 
 # Delete database file if exists
 if os.path.exists(db_path):

@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 def load_bronze():
-    db_path = 'DataWarehouse.duckdb'
+    db_path = 'datawarehouse.duckdb'
     base_path = 'datasets' # datasets are in project folder
     
     conn = duckdb.connect(db_path)
